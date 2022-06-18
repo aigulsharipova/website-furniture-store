@@ -28,7 +28,7 @@ h4 {
 }
 .price {
   position: absolute;
-  top: 50px;
+  bottom: 40px;
   left: 40px;
   background-color: #fff;
   color: #000;
