@@ -6,3 +6,21 @@ h1 {
   font-family: 'Lobster', cursive;
   font-size: 60px;
 }
+.one {
+  background-image: url(./harmony.jpeg);
+}
+.two {
+  background-image: url(./bed.jpeg);
+}
+.three {
+  background-image: url(./fluted.jpeg);
+}
+.four {
+  background-image: url(./bed.jpeg);
+}
+.five {
+  background-image: url(./chair.jpeg);
+}
+.six {
+  background-image: url(./office.jpeg);
+}
