@@ -1,5 +1,8 @@
-const items = document.querySelectorAll('item');
+const items = document.querySelectorAll('.item');
+console.log(items);
+
 items.forEach(item => {
-  items.addEventListener('mouseover', () => {item.classList.add('selected');
-})
+  item.addEventListener('mouseover', () => {
+    console.log("Clicked!!!")
+  })
 })
