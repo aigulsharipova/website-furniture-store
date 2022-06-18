@@ -12,12 +12,16 @@ h1 {
   font-family: 'Lobster', cursive;
   font-size: 60px;
 }
+h4 {
+  position: absolute;
+}
 .item {
   height: 90vh;
   background-size: cover;
   background-position: center;
   flex: 1;
   margin: 5px;
+  position: relative;
 }
 .one {
   background-image: url(./harmony.jpeg);
