@@ -1,3 +1,6 @@
+body {
+  background-color: #faf1e6;
+}
 .heading {
   display: flex;
   justify-content: center;
@@ -14,6 +17,7 @@ h1 {
   background-size: cover;
   background-position: center;
   flex: 1;
+  margin: 5px;
 }
 .one {
   background-image: url(./harmony.jpeg);
