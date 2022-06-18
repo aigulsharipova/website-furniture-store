@@ -2,3 +2,7 @@
   display: flex;
   justify-content: center;
 }
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+}
