@@ -88,6 +88,7 @@ h2 {
 label {
   font-family: 'Lobster', cursive;
   font-size: 20px;
+  padding: 12px;
 }
 .copy {
   text-align: center;
