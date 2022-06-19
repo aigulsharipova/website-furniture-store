@@ -2,7 +2,7 @@
 
 The Furniture store's website.
 
-- ## [Planner](https://to-do-project.glitch.me)
+- ## [Furniture store](https://to-do-project.glitch.me)
 
 ---
 
