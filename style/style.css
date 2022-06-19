@@ -18,6 +18,7 @@ h4 {
   left: 40px;
   background-color: #fff;
   color: #000;
+  font-size: 0;
 }
 .par {
   position: absolute;
