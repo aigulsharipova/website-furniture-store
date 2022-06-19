@@ -59,6 +59,28 @@ h4 {
   font-size: 50px;
   transition: all 1s ease-in;
 }
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+.message {
+  display: flex;
+  justify-content: center;
+}
+label {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  padding: 12px;
+}
+.copy {
+  text-align: center;
+}
+.btn {
+  background-color: #000;
+  font-family: 'Lobster', cursive;
+  color: #f9f9f9;
+  font-size: 30px;
+}
 .one {
   background-image: url(./harmony.jpeg);
 }
@@ -76,20 +98,4 @@ h4 {
 }
 .six {
   background-image: url(./office.jpeg);
-}
-h2 {
-  font-family: 'Lobster', cursive;
-  font-size: 40px;
-}
-.message {
-  display: flex;
-  justify-content: center;
-}
-label {
-  font-family: 'Lobster', cursive;
-  font-size: 20px;
-  padding: 12px;
-}
-.copy {
-  text-align: center;
 }
