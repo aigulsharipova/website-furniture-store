@@ -41,6 +41,13 @@ h4 {
   margin: 5px;
   position: relative;
 }
+.selected {
+  flex: 4;
+}
+.selected h4 {
+  font-size: 40px;
+  transition: all 1s ease-in;
+}
 .one {
   background-image: url(./harmony.jpeg);
 }
@@ -58,7 +65,4 @@ h4 {
 }
 .six {
   background-image: url(./office.jpeg);
-}
-.selected {
-  flex: 4;
 }
