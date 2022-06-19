@@ -1,5 +1,5 @@
 body {
-  background-color: #faf1e6;
+  background-color: #f9f9f9;
 }
 .heading {
   display: flex;
@@ -76,4 +76,12 @@ h4 {
 }
 .six {
   background-image: url(./office.jpeg);
+}
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+.message {
+  display: flex;
+  justify-content: center;
 }
