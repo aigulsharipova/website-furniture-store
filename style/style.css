@@ -48,6 +48,14 @@ h4 {
   font-size: 40px;
   transition: all 1s ease-in;
 }
+.selected .par {
+  font-size: 30px;
+  transition: all 1s ease-in;
+}
+.selected .price {
+  font-size: 50px;
+  transition: all 1s ease-in;
+}
 .one {
   background-image: url(./harmony.jpeg);
 }
