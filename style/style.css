@@ -99,3 +99,9 @@ label {
 .six {
   background-image: url(./office.jpeg);
 }
+@media all and (max-width: 800px){
+  .container{
+    flex-direction: column;
+    height: 100vh;
+  }
+}
