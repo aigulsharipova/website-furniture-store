@@ -6,6 +6,10 @@ function openDateTimer() {
   const msInDay = 24 * 60 * 60 * 1000;
   const displayDay = Math.floor(diff/msInDay);
   document.querySelector('.days').textContent = displayDay;
+
+  if (diff <= 0) {
+    document.querySelector('.days').textContent = 0;
+  }
 }
 
 const items = document.querySelectorAll('.item');
