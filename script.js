@@ -1,3 +1,9 @@
+function openDateTimer() {
+  const openDate = new Date('July 15, 2022, 11:00');
+  const now = new Date();
+  const diff = openDate - now;
+}
+
 const items = document.querySelectorAll('.item');
 items.forEach(item => {
   item.addEventListener('mouseover', () => {
