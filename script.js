@@ -9,8 +9,13 @@ function openDateTimer() {
 
   if (diff <= 0) {
     document.querySelector('.days').textContent = 0;
+    clearInterval(timerId);
+    startDate();
   }
 }
+
+let timerId = setInterval(openDateTimer, 1000);
+
 
 const items = document.querySelectorAll('.item');
 items.forEach(item => {
