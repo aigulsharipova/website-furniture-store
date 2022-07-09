@@ -16,6 +16,9 @@ function openDateTimer() {
 
 let timerId = setInterval(openDateTimer, 1000);
 
+function startDate() {
+  const heading = document.querySelector('h3');
+}
 
 const items = document.querySelectorAll('.item');
 items.forEach(item => {
