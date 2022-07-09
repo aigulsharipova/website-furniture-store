@@ -4,6 +4,8 @@ function openDateTimer() {
   const diff = openDate - now;
 
   const msInDay = 24 * 60 * 60 * 1000;
+  const displayDay = Math.floor(diff/msInDay);
+  document.querySelector('.days').textContent = displayDay;
 }
 
 const items = document.querySelectorAll('.item');
